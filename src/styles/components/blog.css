@@ -1,0 +1,52 @@
+.blog {
+  
+}
+
+.blog__exhibition {
+  display: flex;
+  flex-direction: row;
+}
+
+.blog__article {
+  max-width: 348px;
+  max-height: 450px;
+  display: flex;
+  flex-direction: column;
+  margin: 1.5rem;
+
+  box-shadow: 5px 10px 20px 6px rgba(0,0,0,0.07);
+}
+
+.blog__details {
+  padding: 2rem;
+}
+
+.blog__title {
+  margin-top: 1.5rem;
+
+  color: var(--color-text-title);
+  font-family: 'Montserrat';
+  font-size: 2.4rem;
+  text-align: left;
+}
+
+.blog__description {
+  color: var(--color-text);
+  font-family: 'Muli';
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.blog__author {
+  display: flex;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.author__name {
+  margin-left: 1rem;
+
+  color: var(--color-text);
+  font-family: 'Muli';
+  font-size: 1.6rem;
+}
