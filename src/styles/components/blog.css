@@ -1,5 +1,8 @@
 .blog {
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
 }
 
 .blog__title {
@@ -10,6 +13,9 @@
 }
 
 .blog__description {
+  max-width: 510px;
+  margin-top: 1.5rem;
+
   color: var(--color-text);
   font-family: 'Muli';
   font-size: 1.6rem;
@@ -19,6 +25,7 @@
 .blog__exhibition {
   display: flex;
   flex-direction: row;
+  margin-top: 3rem;
 }
 
 .blog__article {
@@ -26,7 +33,7 @@
   max-height: 450px;
   display: flex;
   flex-direction: column;
-  margin: 1.5rem;
+  margin: 0 1.5rem;
 
   box-shadow: 5px 10px 20px 6px rgba(0,0,0,0.07);
 }
