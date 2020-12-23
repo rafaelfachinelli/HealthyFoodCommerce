@@ -23,6 +23,8 @@ export default function Blog(){
       </p>
       <div className="blog__exhibition">
 
+
+
       <Article
         banner={imageBlog1}
         title="Quick-start guide to nuts and seeds"

@@ -1,12 +1,9 @@
 :root {
-
   --color-primary: #BADC58;
   --color-secondary: #fff;
   --color-text: #9E9BAF;
   --color-text-title: #1D164D;
   --color-white: #FFF;
-
-  font-size: 62.5%;
 }
 
 * {
@@ -20,6 +17,10 @@ html {
   overflow-y: scroll;
 }
 
+::selection {
+  background: var(--color-primary);
+}
+
 @font-face {
   font-family: 'Muli';
   src: url('../assets/fonts/Muli.ttf') format("truetype");
@@ -29,4 +30,16 @@ html {
   font-family: 'Muli';
   src: url('../assets/fonts/Muli-Bold.ttf') format("truetype");
   font-weight: bold;
+}
+
+@media (max-width: 699px) {
+  :root {
+    font-size: 40%;
+  }
+}
+
+@media (min-width: 700px) {
+  :root {
+    font-size: 62.5%;
+  }
 }
