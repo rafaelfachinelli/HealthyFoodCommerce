@@ -6,7 +6,7 @@ export default function Services(){
   return (
     <section className='services' id='services'>
       <div className='services__image'>
-        <img src={imageServices}/>
+        <img src={imageServices} alt="Healthy Food Services"/>
       </div>
       <div className='services__information'>
         <p className='service__title'>
