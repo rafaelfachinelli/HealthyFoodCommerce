@@ -1,0 +1,32 @@
+:root {
+
+  --color-primary: #BADC58;
+  --color-secondary: #fff;
+  --color-text: #9E9BAF;
+  --color-text-title: #1D164D;
+  --color-white: #FFF;
+
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+}
+
+@font-face {
+  font-family: 'Muli';
+  src: url('../assets/fonts/Muli.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: 'Muli';
+  src: url('../assets/fonts/Muli-Bold.ttf') format("truetype");
+  font-weight: bold;
+}
