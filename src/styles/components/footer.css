@@ -1,0 +1,29 @@
+.footer {
+  height: 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10rem;
+
+}
+
+.footer__copyright {
+  color: var(--color-text);
+  font-family: 'Muli';
+  font-size: 1.6rem;
+}
+
+.footer__links {
+  display: flex;
+}
+
+.footer__links a {
+  color: var(--color-text);
+  font-family: 'Muli';
+  font-size: 1.6rem;
+  text-decoration: none;
+}
+
+.footer__links a:first-child{
+  margin-right: 3rem;
+}
