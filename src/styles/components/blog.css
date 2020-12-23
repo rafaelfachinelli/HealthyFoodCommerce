@@ -2,6 +2,20 @@
   
 }
 
+.blog__title {
+  color: var(--color-text-title);
+  font-family: 'Montserrat';
+  font-size: 3.2rem;
+  text-align: center;
+}
+
+.blog__description {
+  color: var(--color-text);
+  font-family: 'Muli';
+  font-size: 1.6rem;
+  text-align: center;
+}
+
 .blog__exhibition {
   display: flex;
   flex-direction: row;
@@ -17,11 +31,11 @@
   box-shadow: 5px 10px 20px 6px rgba(0,0,0,0.07);
 }
 
-.blog__details {
+.article__details {
   padding: 2rem;
 }
 
-.blog__title {
+.article__title {
   margin-top: 1.5rem;
 
   color: var(--color-text-title);
@@ -30,14 +44,14 @@
   text-align: left;
 }
 
-.blog__description {
+.article__description {
   color: var(--color-text);
   font-family: 'Muli';
   font-size: 1.6rem;
   text-align: center;
 }
 
-.blog__author {
+.article__author {
   display: flex;
   align-items: center;
   margin-top: 1.5rem;

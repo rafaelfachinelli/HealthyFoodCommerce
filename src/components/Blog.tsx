@@ -19,13 +19,13 @@ export default function Blog(){
         there live the blind texts.
       </p>
       <div className="blog__exhibition">
-        <article className='blog__article'>
+      <article className='blog__article'>
           <img src={imageBlog1} alt='Blog Banner'/>
-          <div className="blog__details">
-            <p className='blog__title'>
+          <div className="article__details">
+            <p className='article__title'>
               Quick-start guide to nuts and seeds
             </p>
-            <div className='blog__author'>
+            <div className='article__author'>
               <img
                 className='author__image'
                 src={imageAuthor1}
@@ -37,11 +37,11 @@ export default function Blog(){
         </article>
         <article className='blog__article'>
           <img src={imageBlog2} alt='Blog Banner'/>
-          <div className="blog__details">
-            <p className='blog__title'>
+          <div className="article__details">
+            <p className='article__title'>
               Quick-start guide to nuts and seeds
             </p>
-            <div className='blog__author'>
+            <div className='article__author'>
               <img
                 className='author__image'
                 src={imageAuthor2}
@@ -53,11 +53,11 @@ export default function Blog(){
         </article>
         <article className='blog__article'>
           <img src={imageBlog3} alt='Blog Banner'/>
-          <div className="blog__details">
-            <p className='blog__title'>
+          <div className="article__details">
+            <p className='article__title'>
               Quick-start guide to nuts and seeds
             </p>
-            <div className='blog__author'>
+            <div className='article__author'>
               <img
                 className='author__image'
                 src={imageAuthor3}
@@ -69,11 +69,11 @@ export default function Blog(){
         </article>
         <article className='blog__article'>
           <img src={imageBlog4} alt='Blog Banner'/>
-          <div className="blog__details">
-            <p className='blog__title'>
+          <div className="article__details">
+            <p className='article__title'>
               Quick-start guide to nuts and seeds
             </p>
-            <div className='blog__author'>
+            <div className='article__author'>
               <img
                 className='author__image'
                 src={imageAuthor4}
