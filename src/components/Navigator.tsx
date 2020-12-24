@@ -5,9 +5,7 @@ import '../styles/components/navigator.css';
 export default function Navigator() {
   return (
     <nav className='nav'>
-      <div className='nav__logo'>
-        <p>Healthy Food</p>
-      </div>
+      <Link className='nav__logo' to='/'><p>Healthy Food</p></Link>
       <div className='nav__menu'>
         <div className='menu__hamburguer'>
           <input id='hamburguer__checkbox' type="checkbox" />

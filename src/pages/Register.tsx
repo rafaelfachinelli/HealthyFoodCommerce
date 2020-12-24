@@ -33,11 +33,15 @@ export default function Register() {
     }
   }
 
+  function handleSubmit(event) {
+    console.log(event);
+  }
+
   return (
     <section className='register'>
       <Navigator/>
       <div className='register__form'>
-        <form className='form' action='/'>
+        <form className='form' action='/' onSubmit={handleSubmit}>
           <fieldset className='form__fieldset'>
             <legend className='fieldset__legend'>Personal</legend>
             <Input
