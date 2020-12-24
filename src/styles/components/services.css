@@ -82,24 +82,47 @@
       width: 100%;
       margin-top: 1.5rem;
 
-      color: var(--color-white);
-      text-shadow: 3px 3px 9px rgba(150, 150, 150, 1);
+      text-align: right;
+      text-shadow: 3px 3px 9px rgba(255, 255, 255, 1);
     }
 }
 
 /*Tablet*/
 @media (min-width: 481px) 
   and (max-width: 1100px) {
+  .services {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 3rem;
+    padding: 3rem;
 
-}
+    background: url('../../images/bloco_services.svg') no-repeat;
+    background-size: contain;
+    background-position: left top;
+  }
+  
+  .services__image img {
+    display: none;
+  }
 
-/*Desktop*/
-@media (min-width: 1101px)
-  and (max-width: 1600px) {
+  .services__information {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 7%;
+  }
 
-}
+  .service__title {
+    max-width: 320px;
+    margin: 0;
+    text-align: right;
+  }
+  
+  .service__description {
+    width: 100%;
+    margin-top: 1.5rem;
 
-/*Ultra*/
-@media (min-width: 1601px) {
-
+    text-align: right;
+    text-shadow: 3px 3px 9px rgba(255, 255, 255, 1);
+  }
 }

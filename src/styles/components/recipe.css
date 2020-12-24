@@ -54,16 +54,12 @@
 /*Tablet*/
 @media (min-width: 481px) 
   and (max-width: 1100px) {
-
-}
-
-/*Desktop*/
-@media (min-width: 1101px)
-  and (max-width: 1600px) {
-
-}
-
-/*Ultra*/
-@media (min-width: 1601px) {
-
+  .recipe {
+    margin: 3rem 1rem 0 1rem;
+  }
+  
+  .recipe__image {
+    width: 19rem;
+    height: 19rem;
+  }
 }
