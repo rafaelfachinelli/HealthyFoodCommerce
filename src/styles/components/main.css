@@ -22,7 +22,12 @@
   font-weight: 700;
 }
 
-.nav__list {
+#hamburguer__checkbox{
+  position: absolute;
+  opacity: 0;
+}
+
+.menu__list {
   min-width: 45.5rem;
   display: flex;
   justify-content: space-around;
@@ -133,9 +138,9 @@
   .main__nav {
     height: 9rem;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
-    padding: 0;
+    padding: 0 2rem;
     position: fixed;
     top: 0;
     z-index: 1;
@@ -149,15 +154,84 @@
 
     text-align: center;
   }
+
   
-  .nav__list {
+  .menu__hamburguer label{
+    width: 30px;
+    height: 22px;
+    display: block;
+    position: relative;
+    
+    cursor: pointer;
+  }
+  
+  .menu__hamburguer label span{
     width: 100%;
-    display: none;
+    height: 5px;
+    display: block;
+    position: absolute;
+    transition: 0.25s ease-in-out;
+
+    background: var(--color-primary);
+    border-radius: 30px;
+  }
+  
+  .menu__hamburguer label span:nth-child(1){
+    top: 0;
+  }
+  
+  .menu__hamburguer label span:nth-child(2){
+    top: 8px;
+  }
+  
+  .menu__hamburguer label span:nth-child(3){
+    top: 16px;
+  }
+  
+  #hamburguer__checkbox:checked + label span:nth-child(1){
+    top: 8px;
+    transform: rotate(-45deg);
+  }
+  
+  #hamburguer__checkbox:checked + label span:nth-child(2){
+    opacity: 0;
+  }
+  
+  #hamburguer__checkbox:checked + label span:nth-child(3){
+    top: 8px;
+    transform: rotate(45deg);
+  }
+  
+  .menu__list {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 9rem;
     justify-content: space-around;
     padding: 1rem;
     list-style: none;
-
+    transform: translateY(-9rem);
+    transition: .2s ease-in-out;
+    z-index: -2;
+    
     background: var(--color-primary);
+    opacity: 0;
+  }
+
+  #hamburguer__checkbox:checked ~ .menu__list {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 9rem;
+    justify-content: space-around;
+    padding: 1rem;
+    list-style: none;
+    transform: translateY(0);
+    z-index: -2;
+    
+    background: var(--color-primary);
+    opacity: 1;
   }
   
   .item__register {
@@ -220,7 +294,7 @@
     text-align: center;
   }
   
-  .nav__list {
+  .menu__list {
     width: 100%;
     display: none;
     justify-content: space-around;
