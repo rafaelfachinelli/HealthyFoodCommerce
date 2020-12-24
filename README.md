@@ -1,46 +1,216 @@
-# Getting Started with Create React App
+<p align="center">
+  <img alt="PROJECT NAME" src=".github/banner.svg" width="250px"/>
+<p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center"> 
+  <img alt="Repository Size" src="https://img.shields.io/github/repo-size/rafaelfachinelli/dev-readme?color=3498db&style=for-the-badge">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/rafaelfachinelli/dev-readme?color=3498db&style=for-the-badge">
+  <a href="https://github.com/rafaelfachinelli">
+    <img alt="Developed by YOURNAME" src="https://img.shields.io/badge/Developer-YOUR_NAME-%3498db?color=3498db&style=for-the-badge">
+  </a>
+  <img alt="Project License" src="https://img.shields.io/github/license/rafaelfachinelli/dev-readme?color=3498db&style=for-the-badge"/>
+<p>
 
-## Available Scripts
+<p align="center">
+ <a href="#eye_speech_bubble-demo">Demo</a> •
+ <a href="#information_source-about">About</a> •
+ <a href="#memo-tasks">Tasks</a> •
+ <a href="#arrow_forward-run">Run</a> •
+ <a href="#hammer_and_wrench-technologies">Technologies</a> •
+ <a href="#muscle-contributors">Contributors</a> •
+ <a href="#boy-author">Author</a> •
+ <a href="#balance_scale-license">License</a>
+</p>
 
-In the project directory, you can run:
+---
+## :eye_speech_bubble: **Demo**
 
-### `yarn start`
+<p align="center">
+  <kbd><img alt="PROJECT NAME IMAGE" src="https://avatars1.githubusercontent.com/u/9919?s=200&v=4"/></kbd>
+<p>
+  
+---
+## :information_source: About
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Your description about this project.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
+## :memo: **Tasks**
 
-### `yarn test`
+<div align="center">
+<details>
+<summary>Click to View</summary>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+|State|Task|
+|:---:|:---|
+|:heavy_check_mark:|Describe your task finished.|
+|:x:|Describe your task unfinished.|
 
-### `yarn build`
+</details>
+</div>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
+## :arrow_forward: **Run**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### :desktop_computer: **WEB Responsive**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Open folder [`exemple/`](exemple/) and execute the following commands:
 
-### `yarn eject`
+<details>
+  <summary><i>with <b>npm</b></i></summary>
+  
+  ```bash
+  # Install dependencies
+  $ npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+  # Start development server
+  $ npm start
+  ```
+  
+</details>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<details>
+  <summary><i>with <b>yarn</b></i></summary>
+  
+  ```bash
+  # Install dependencies
+  $ yarn
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+  # Start development server
+  $ yarn start
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+  ```
 
-## Learn More
+</details>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+> ⚠️ The development server will start on port:YOURPORT - Access <http://localhost:YOURPORT>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
+## :hammer_and_wrench: **Technologies**
+
+The following tools is used to build this project:
+
+<div align="center">
+
+|:globe_with_meridians: Web|:iphone: Mobile|:file_cabinet: Server|
+|:---:|:---:|:---:|
+|[Exemple](https://exemple.com)|[Exemple](https://exemple.com)|[Exemple](https://exemple.com)|
+
+</div>
+
+---
+## :muscle: **Contributors**
+
+Thanks to all these wonderful people:
+
+<div align="center">
+
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://PORTFOLIOURL.COM">
+        <img src="https://avatars1.githubusercontent.com/u/9919?s=200&v=4" width="100px;" alt="Image Profile NAME CONTRIBUTOR"/><br />
+        <sub><b>Contributor Name</b></sub>
+      </a>
+      <br/>
+      <a href="https://www.linkedin.com/in/CONTRIBUTORNAME" title="LinkedIn"><img src="https://simpleicons.org/icons/linkedin.svg" width="20px"/></a>
+      <a href="https://github.com/CONTRIBUTORNAME" title="GitHub"><img src="https://simpleicons.org/icons/github.svg" width="20px"/></a>
+      <a href="https://www.facebook.com/CONTRIBUTORNAME" title="Facebook"><img src="https://simpleicons.org/icons/facebook.svg" width="20px"/></a>
+      <a href="https://www.youtube.com/CANALNAME" title="YouTube"><img src="https://simpleicons.org/icons/youtube.svg" width="20px"/></a>
+    </td>
+    <td align="center">
+      <a href="https://PORTFOLIOURL.COM">
+        <img src="https://avatars1.githubusercontent.com/u/9919?s=200&v=4" width="100px;" alt="Image Profile NAME CONTRIBUTOR"/><br />
+        <sub><b>Contributor Name</b></sub>
+      </a>
+      <br/>
+      <a href="https://www.linkedin.com/in/CONTRIBUTORNAME" title="LinkedIn"><img src="https://simpleicons.org/icons/linkedin.svg" width="20px"/></a>
+      <a href="https://github.com/CONTRIBUTORNAME" title="GitHub"><img src="https://simpleicons.org/icons/github.svg" width="20px"/></a>
+      <a href="https://www.facebook.com/CONTRIBUTORNAME" title="Facebook"><img src="https://simpleicons.org/icons/facebook.svg" width="20px"/></a>
+      <a href="https://www.youtube.com/CANALNAME" title="YouTube"><img src="https://simpleicons.org/icons/youtube.svg" width="20px"/></a>
+    </td>
+    <td align="center">
+      <a href="https://PORTFOLIOURL.COM">
+        <img src="https://avatars1.githubusercontent.com/u/9919?s=200&v=4" width="100px;" alt="Image Profile NAME CONTRIBUTOR"/><br />
+        <sub><b>Contributor Name</b></sub>
+      </a>
+      <br/>
+      <a href="https://www.linkedin.com/in/CONTRIBUTORNAME" title="LinkedIn"><img src="https://simpleicons.org/icons/linkedin.svg" width="20px"/></a>
+      <a href="https://github.com/CONTRIBUTORNAME" title="GitHub"><img src="https://simpleicons.org/icons/github.svg" width="20px"/></a>
+      <a href="https://www.facebook.com/CONTRIBUTORNAME" title="Facebook"><img src="https://simpleicons.org/icons/facebook.svg" width="20px"/></a>
+      <a href="https://www.youtube.com/CANALNAME" title="YouTube"><img src="https://simpleicons.org/icons/youtube.svg" width="20px"/></a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://PORTFOLIOURL.COM">
+        <img src="https://avatars1.githubusercontent.com/u/9919?s=200&v=4" width="100px;" alt="Image Profile NAME CONTRIBUTOR"/><br />
+        <sub><b>Contributor Name</b></sub>
+      </a>
+      <br/>
+      <a href="https://www.linkedin.com/in/CONTRIBUTORNAME" title="LinkedIn"><img src="https://simpleicons.org/icons/linkedin.svg" width="20px"/></a>
+      <a href="https://github.com/CONTRIBUTORNAME" title="GitHub"><img src="https://simpleicons.org/icons/github.svg" width="20px"/></a>
+      <a href="https://www.facebook.com/CONTRIBUTORNAME" title="Facebook"><img src="https://simpleicons.org/icons/facebook.svg" width="20px"/></a>
+      <a href="https://www.youtube.com/CANALNAME" title="YouTube"><img src="https://simpleicons.org/icons/youtube.svg" width="20px"/></a>
+    </td>
+    <td align="center">
+      <a href="https://PORTFOLIOURL.COM">
+        <img src="https://avatars1.githubusercontent.com/u/9919?s=200&v=4" width="100px;" alt="Image Profile NAME CONTRIBUTOR"/><br />
+        <sub><b>Contributor Name</b></sub>
+      </a>
+      <br/>
+      <a href="https://www.linkedin.com/in/CONTRIBUTORNAME" title="LinkedIn"><img src="https://simpleicons.org/icons/linkedin.svg" width="20px"/></a>
+      <a href="https://github.com/CONTRIBUTORNAME" title="GitHub"><img src="https://simpleicons.org/icons/github.svg" width="20px"/></a>
+      <a href="https://www.facebook.com/CONTRIBUTORNAME" title="Facebook"><img src="https://simpleicons.org/icons/facebook.svg" width="20px"/></a>
+      <a href="https://www.youtube.com/CANALNAME" title="YouTube"><img src="https://simpleicons.org/icons/youtube.svg" width="20px"/></a>
+    </td>
+    <td align="center">
+      <a href="https://PORTFOLIOURL.COM">
+        <img src="https://avatars1.githubusercontent.com/u/9919?s=200&v=4" width="100px;" alt="Image Profile NAME CONTRIBUTOR"/><br />
+        <sub><b>Contributor Name</b></sub>
+      </a>
+      <br/>
+      <a href="https://www.linkedin.com/in/CONTRIBUTORNAME" title="LinkedIn"><img src="https://simpleicons.org/icons/linkedin.svg" width="20px"/></a>
+      <a href="https://github.com/CONTRIBUTORNAME" title="GitHub"><img src="https://simpleicons.org/icons/github.svg" width="20px"/></a>
+      <a href="https://www.facebook.com/CONTRIBUTORNAME" title="Facebook"><img src="https://simpleicons.org/icons/facebook.svg" width="20px"/></a>
+      <a href="https://www.youtube.com/CANALNAME" title="YouTube"><img src="https://simpleicons.org/icons/youtube.svg" width="20px"/></a>
+    </td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+</div>
+
+---
+## :boy: **Author**
+
+<div align="center">
+
+<a href="https://github.com/YOURUSERNAME">
+ <img src="https://avatars1.githubusercontent.com/u/9919?s=200&v=4" width="100px;" alt="Profile Photo Rafael Fachinelli"/>
+ <br/>
+ <sub><b>Rafael Fachinelli</b></sub>
+</a>
+
+Developed with ❤️ by Rafael Fachinelli 👋🏽 Contact me!
+
+[![Linkedin Badge](https://img.shields.io/badge/-Rafael_FachinelliE-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/rafaelfachinelli)
+[![Github Badge](https://img.shields.io/badge/-rafaelfachinelli-000?style=flat-square&logo=Github&logoColor=white)](https://github.com/rafaelfachinelli)
+[![Outlook Badge](https://img.shields.io/badge/-rafael.fachinelli@fatec.sp.gov.br-0078d4?style=flat-square&logo=microsoft-outlook&logoColor=white)](mailto:rafael.fachinelli@fatec.sp.gov.br)
+
+</div>
+
+---
+## :balance_scale: **License**
+
+<div align="center">
+
+Copyright © 2020 [YOUR NAME](https://github.com/YOURUSERNAME).<br />
+This project is licensed by [MIT](./LICENSE).
+
+</div>
