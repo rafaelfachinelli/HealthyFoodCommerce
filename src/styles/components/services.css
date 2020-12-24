@@ -82,6 +82,7 @@
       width: 100%;
       margin-top: 1.5rem;
 
+      color: var(--color-text-title);
       text-align: right;
       text-shadow: 3px 3px 9px rgba(255, 255, 255, 1);
     }
@@ -122,6 +123,7 @@
     width: 100%;
     margin-top: 1.5rem;
 
+    color: var(--color-text-title);
     text-align: right;
     text-shadow: 3px 3px 9px rgba(255, 255, 255, 1);
   }
