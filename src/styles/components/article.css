@@ -51,7 +51,6 @@
   and (max-width: 480px) {
   .article__image {
     width: 30rem;
-    height: 30rem;
   }
   
   .article__title {
