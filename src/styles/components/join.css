@@ -67,18 +67,17 @@
   and (max-width: 480px) {
   .join {
     width: 100%;
+    height: 40rem;
     display: flex;
     align-items: center;
+
+    background: url('../../images/join.svg') no-repeat;
+    background-size: contain;
+    background-position: right top;
   }
 
   .join__image {
-    width: 10rem;
-    height: 10rem;
-  }
-
-  .image__join {
-    width: 10rem;
-    height: 10rem;
+    display: none;
   }
   
   .join__email {

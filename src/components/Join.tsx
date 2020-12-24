@@ -13,7 +13,7 @@ export default function Join() {
         </div>
       </div>
       <div className='join__image'>
-        <img className='image__join' src={imageJoin} alt="Join"/>
+        <img src={imageJoin} alt="Join"/>
       </div>
     </section>
   )
