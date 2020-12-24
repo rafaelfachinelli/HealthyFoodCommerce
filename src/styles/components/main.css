@@ -130,8 +130,8 @@
     margin-bottom: 0;
 
     background: url('../../images/Illustration.svg') no-repeat;
-    background-size: 70%;
-    background-position: right top;
+    background-size: 80%;
+    background-position: right 50%;
   }
   
   .main__nav {
@@ -245,7 +245,7 @@
   }
   
   .main__search {
-    margin: 4.5rem;
+    margin: 1.5rem;
     align-self: auto;
     transition: none;
     animation: none;
@@ -273,7 +273,7 @@
 
     background: url('../../images/Illustration.svg') no-repeat;
     background-size: 70%;
-    background-position: right top;
+    background-position: right 50%;
   }
   
   .main__nav {
