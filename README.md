@@ -1,14 +1,14 @@
 <p align="center">
-  <img alt="PROJECT NAME" src=".github/banner.svg" width="250px"/>
+  <img alt="PROJECT NAME" src=".github/banner.svg" width="350px"/>
 <p>
 
 <p align="center"> 
-  <img alt="Repository Size" src="https://img.shields.io/github/repo-size/rafaelfachinelli/dev-readme?color=3498db&style=for-the-badge">
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/rafaelfachinelli/dev-readme?color=3498db&style=for-the-badge">
+  <img alt="Repository Size" src="https://img.shields.io/github/repo-size/rafaelfachinelli/HealthyFoodCommerce?color=BADC58&style=for-the-badge">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/rafaelfachinelli/HealthyFoodCommerce?color=BADC58&style=for-the-badge">
   <a href="https://github.com/rafaelfachinelli">
-    <img alt="Developed by YOURNAME" src="https://img.shields.io/badge/Developer-YOUR_NAME-%3498db?color=3498db&style=for-the-badge">
+    <img alt="Developed by YOURNAME" src="https://img.shields.io/badge/Developer-Rafael_Fachinelli-%BADC58?color=BADC58&style=for-the-badge">
   </a>
-  <img alt="Project License" src="https://img.shields.io/github/license/rafaelfachinelli/dev-readme?color=3498db&style=for-the-badge"/>
+  <img alt="Project License" src="https://img.shields.io/github/license/rafaelfachinelli/HealthyFoodCommerce?color=BADC58&style=for-the-badge"/>
 <p>
 
 <p align="center">
