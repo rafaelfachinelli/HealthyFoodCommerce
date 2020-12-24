@@ -266,7 +266,7 @@
   .main {
     width: 100vw;
     display: flex;
-    margin-top: 9rem;
+    margin-top: 6rem;
     margin-bottom: 0;
 
     background: url('../../images/Illustration.svg') no-repeat;
@@ -275,7 +275,7 @@
   }
   
   .main__nav {
-    height: 9rem;
+    height: 6rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -345,7 +345,7 @@
     width: 100%;
     position: absolute;
     left: 0;
-    top: 9rem;
+    top: 6rem;
     justify-content: space-around;
     padding: 1rem;
     list-style: none;
@@ -362,7 +362,7 @@
     display: flex;
     position: absolute;
     left: 0;
-    top: 9rem;
+    top: 6rem;
     justify-content: space-around;
     padding: 1rem;
     list-style: none;
