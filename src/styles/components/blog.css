@@ -31,34 +31,8 @@
 /*Phone*/
 @media (min-width: 320px) 
   and (max-width: 480px) {
-  .blog {
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    margin-bottom: 10rem;
-  }
-  
-  .blog__title {
-    color: var(--color-text-title);
-    font-family: 'Montserrat';
-    font-size: 3.2rem;
-    text-align: center;
-  }
-  
   .blog__description {
-    width: 100%;
-    margin-top: 1.5rem;
-  
-    color: var(--color-text);
-    font-family: 'Muli';
-    font-size: 1.6rem;
-    text-align: center;
-  }
-  
-  .blog__carousel {
-    display: flex;
-    padding: 3rem 0;
-    overflow: auto;
+    padding: 0 1.5rem;
   }
 }
 
