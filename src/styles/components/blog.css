@@ -1,7 +1,6 @@
 .blog {
   display: flex;
   flex-direction: column;
-  align-items: center;
   overflow: hidden;
   margin-bottom: 10rem;
 }
@@ -14,7 +13,7 @@
 }
 
 .blog__description {
-  max-width: 510px;
+  width: 100%;
   margin-top: 1.5rem;
 
   color: var(--color-text);
@@ -23,8 +22,8 @@
   text-align: center;
 }
 
-.blog__exhibition {
+.blog__carousel {
   display: flex;
-  flex-direction: row;
-  margin-top: 3rem;
+  padding: 3rem 0;
+  overflow: auto;
 }
