@@ -245,14 +245,14 @@
   }
   
   .main__search {
-    margin: 3rem;
+    margin: 4.5rem;
     align-self: auto;
     transition: none;
     animation: none;
   }
   
   .search__input {
-    margin-top: 7rem;
+    margin-top: 2rem;
   }
 
   .search__input input {
