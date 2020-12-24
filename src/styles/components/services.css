@@ -47,3 +47,58 @@
   outline: none;
   cursor: pointer;
 }
+
+/*Phone*/
+@media (min-width: 320px) 
+  and (max-width: 480px) {
+    .services {
+      display: flex;
+      align-items: center;
+      margin-bottom: 3rem;
+      padding: 3rem;
+
+      background: url('../../images/bloco_services.svg') no-repeat;
+      background-size: contain;
+      background-position: left top;
+    }
+    
+    .services__image img {
+      display: none;
+    }
+
+    .services__information {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+
+    .service__title {
+      max-width: 320px;
+      margin: 0;
+      text-align: right;
+    }
+    
+    .service__description {
+      width: 100%;
+      margin-top: 1.5rem;
+
+      color: var(--color-text-title);
+    }
+}
+
+/*Tablet*/
+@media (min-width: 481px) 
+  and (max-width: 1100px) {
+
+}
+
+/*Desktop*/
+@media (min-width: 1101px)
+  and (max-width: 1600px) {
+
+}
+
+/*Ultra*/
+@media (min-width: 1601px) {
+
+}

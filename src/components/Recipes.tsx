@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import Recipe from './Recipe';
 
 import imageRecipe1 from '../images/food_1.svg';
 import imageRecipe2 from '../images/food_2.svg';
@@ -19,34 +19,10 @@ export default function Recipes() {
         </p>
       </div>
       <div className='recipes__best'>
-        <article className='recipe'>
-          <img className='recipe__image' src={imageRecipe1} alt="Broccoli Salad with Bacon"/>
-          <div className="recipe__informations">
-            <p className='recipe__title'>Broccoli Salad with Bacon</p>
-            <Link className='recipe__button' to='/'>See Recipe</Link>
-          </div>
-        </article>
-        <article className='recipe'>
-          <img className='recipe__image' src={imageRecipe2} alt="Classic Beef Burgers"/>
-          <div className="recipe__informations">
-            <p className='recipe__title'>Classic Beef Burgers</p>
-            <Link className='recipe__button' to='/'>See Recipe</Link>
-          </div>
-        </article>
-        <article className='recipe'>
-          <img className='recipe__image' src={imageRecipe3} alt="Classic Potato Salad"/>
-          <div className="recipe__informations">
-            <p className='recipe__title'>Classic Potato Salad</p>
-            <Link className='recipe__button' to='/'>See Recipe</Link>
-          </div>
-        </article>
-        <article className='recipe'>
-          <img className='recipe__image' src={imageRecipe4} alt="Cherry Cobbler on the Grill"/>
-          <div className="recipe__informations">
-            <p className='recipe__title'>Cherry Cobbler on the Grill</p>
-            <Link className='recipe__button' to='/'>See Recipe</Link>
-          </div>
-        </article>
+        <Recipe image={imageRecipe1} title='Broccoli Salad with Bacon'/>
+        <Recipe image={imageRecipe2} title='Classic Beef Burgers'/>
+        <Recipe image={imageRecipe3} title='Classic Potato Salad'/>
+        <Recipe image={imageRecipe4} title='Cherry Cobbler on the Grill'/>
       </div>
     </section>
   );

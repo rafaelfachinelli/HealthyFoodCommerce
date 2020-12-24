@@ -169,9 +169,7 @@
   }
   
   .main__search {
-    margin-top: 5rem;
-    margin-left: 3rem;
-    margin-bottom: 8rem;
+    margin: 3rem;
     align-self: auto;
     transition: none;
     animation: none;
