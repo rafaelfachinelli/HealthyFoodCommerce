@@ -4,6 +4,8 @@
   --color-text: #9E9BAF;
   --color-text-title: #1D164D;
   --color-white: #FFF;
+  --color-invalid: #e74c3c;
+  --color-valid: #27ae60;
 }
 
 * {

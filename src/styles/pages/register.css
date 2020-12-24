@@ -1,0 +1,19 @@
+.register {
+
+}
+
+.register__form {
+  padding-top: 10rem;
+}
+
+/*Phone*/
+@media (min-width: 320px) 
+  and (max-width: 480px) {
+
+}
+
+/*Tablet*/
+@media (min-width: 481px) 
+  and (max-width: 1100px) {
+
+}
