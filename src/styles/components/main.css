@@ -178,6 +178,11 @@
   .search__input {
     margin-top: 7rem;
   }
+
+  .search__input input {
+    width: 25rem;
+    height: 5.2rem;
+  }
   
 }
 
