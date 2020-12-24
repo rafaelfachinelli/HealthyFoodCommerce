@@ -31,7 +31,13 @@
 /*Phone*/
 @media (min-width: 320px) 
   and (max-width: 480px) {
-    
+  .footer {
+    padding: 0 1.5rem;
+  }
+
+  .footer__links a:first-child{
+    margin-right: 0;
+  }
 }
 
 /*Tablet*/
