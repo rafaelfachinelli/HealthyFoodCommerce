@@ -3,6 +3,9 @@ input {
   height: 5.2rem;
   padding: 1.5rem;
 
+  color: var(--color-text-title);
+  font-family: 'Muli';
+  font-size: 1.6rem;
   outline-style: none;
   border: 1px solid var(--color-text-title);
   border-radius: .5rem;

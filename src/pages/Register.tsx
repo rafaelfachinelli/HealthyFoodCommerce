@@ -37,9 +37,9 @@ export default function Register() {
     <section className='register'>
       <Navigator/>
       <div className='register__form'>
-        <form action='/'>
-          <fieldset>
-            <legend>Personal</legend>
+        <form className='form' action='/'>
+          <fieldset className='form__fieldset'>
+            <legend className='fieldset__legend'>Personal</legend>
             <Input
               id='name'
               type='text'
@@ -64,8 +64,8 @@ export default function Register() {
               required={true}
             />
           </fieldset>
-          <fieldset>
-          <legend>Address</legend>
+          <fieldset className='form__fieldset'>
+          <legend className='fieldset__legend'>Address</legend>
             <Input
               id='CEP'
               type='text'

@@ -1,9 +1,80 @@
 .register {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 
+  background: url('../../images/register.svg') no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
 .register__form {
-  padding-top: 10rem;
+  max-width: 800px;
+  padding: 10rem 1rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__fieldset {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.5rem;
+
+  color: var(--color-text-title);
+  font-family: 'Montserrat';
+  font-size: 3.2rem;
+  font-weight: 700;
+  border: 1px solid var(--color-primary);
+  border-radius: .5rem;
+}
+
+.form input {
+  margin: 1rem;
+}
+
+.form input[id='CEP'] {
+  max-width: 20rem;
+}
+
+.form input[id='name'] {
+  max-width: 35rem;
+}
+
+.form input[id='number'] {
+  max-width: 15rem;
+}
+
+.form input[id='birthday'] {
+  max-width: 17rem;
+}
+
+.form input[id='city'] {
+  max-width: 20rem;
+}
+
+.form input[id='UF'] {
+  max-width: 7rem;
+}
+
+
+.form button {
+  width: 30%;
+  margin-top: 3rem;
+  padding: 1.5rem;
+
+  color: var(--color-white);
+  background: var(--color-primary);
+  font-family: 'Muli';
+  font-size: 1.6rem;
+  border: none;
+  border-radius: .5rem;
+  outline: none;
+  cursor: pointer;
 }
 
 /*Phone*/
