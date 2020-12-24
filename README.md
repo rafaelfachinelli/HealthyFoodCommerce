@@ -1,12 +1,12 @@
 <p align="center">
-  <img alt="PROJECT NAME" src=".github/banner.svg" width="350px"/>
+  <img alt="Healthy Food Commerce" src=".github/banner.svg" width="350px"/>
 <p>
 
 <p align="center"> 
   <img alt="Repository Size" src="https://img.shields.io/github/repo-size/rafaelfachinelli/HealthyFoodCommerce?color=BADC58&style=for-the-badge">
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/rafaelfachinelli/HealthyFoodCommerce?color=BADC58&style=for-the-badge">
   <a href="https://github.com/rafaelfachinelli">
-    <img alt="Developed by YOURNAME" src="https://img.shields.io/badge/Developer-Rafael_Fachinelli-%BADC58?color=BADC58&style=for-the-badge">
+    <img alt="Developed by Rafael Fachinelli" src="https://img.shields.io/badge/Developer-Rafael_Fachinelli-%BADC58?color=BADC58&style=for-the-badge">
   </a>
   <img alt="Project License" src="https://img.shields.io/github/license/rafaelfachinelli/HealthyFoodCommerce?color=BADC58&style=for-the-badge"/>
 <p>
@@ -17,7 +17,6 @@
  <a href="#memo-tasks">Tasks</a> •
  <a href="#arrow_forward-run">Run</a> •
  <a href="#hammer_and_wrench-technologies">Technologies</a> •
- <a href="#muscle-contributors">Contributors</a> •
  <a href="#boy-author">Author</a> •
  <a href="#balance_scale-license">License</a>
 </p>
@@ -26,7 +25,7 @@
 ## :eye_speech_bubble: **Demo**
 
 <p align="center">
-  <kbd><img alt="PROJECT NAME IMAGE" src="https://avatars1.githubusercontent.com/u/9919?s=200&v=4"/></kbd>
+  <kbd><img alt="Healthy Food Commerce" src="https://avatars1.githubusercontent.com/u/9919?s=200&v=4"/></kbd>
 <p>
   
 ---
@@ -53,8 +52,6 @@ Your description about this project.
 ## :arrow_forward: **Run**
 
 ### :desktop_computer: **WEB Responsive**
-
-Open folder [`exemple/`](exemple/) and execute the following commands:
 
 <details>
   <summary><i>with <b>npm</b></i></summary>
@@ -83,7 +80,7 @@ Open folder [`exemple/`](exemple/) and execute the following commands:
 
 </details>
 
-> ⚠️ The development server will start on port:YOURPORT - Access <http://localhost:YOURPORT>
+> ⚠️ The development server will start on port:3000 - Access <http://localhost:3000>
 
 ---
 ## :hammer_and_wrench: **Technologies**
@@ -92,97 +89,13 @@ The following tools is used to build this project:
 
 <div align="center">
 
-|:globe_with_meridians: Web|:iphone: Mobile|:file_cabinet: Server|
-|:---:|:---:|:---:|
-|[Exemple](https://exemple.com)|[Exemple](https://exemple.com)|[Exemple](https://exemple.com)|
-
-</div>
-
----
-## :muscle: **Contributors**
-
-Thanks to all these wonderful people:
-
-<div align="center">
-
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://PORTFOLIOURL.COM">
-        <img src="https://avatars1.githubusercontent.com/u/9919?s=200&v=4" width="100px;" alt="Image Profile NAME CONTRIBUTOR"/><br />
-        <sub><b>Contributor Name</b></sub>
-      </a>
-      <br/>
-      <a href="https://www.linkedin.com/in/CONTRIBUTORNAME" title="LinkedIn"><img src="https://simpleicons.org/icons/linkedin.svg" width="20px"/></a>
-      <a href="https://github.com/CONTRIBUTORNAME" title="GitHub"><img src="https://simpleicons.org/icons/github.svg" width="20px"/></a>
-      <a href="https://www.facebook.com/CONTRIBUTORNAME" title="Facebook"><img src="https://simpleicons.org/icons/facebook.svg" width="20px"/></a>
-      <a href="https://www.youtube.com/CANALNAME" title="YouTube"><img src="https://simpleicons.org/icons/youtube.svg" width="20px"/></a>
-    </td>
-    <td align="center">
-      <a href="https://PORTFOLIOURL.COM">
-        <img src="https://avatars1.githubusercontent.com/u/9919?s=200&v=4" width="100px;" alt="Image Profile NAME CONTRIBUTOR"/><br />
-        <sub><b>Contributor Name</b></sub>
-      </a>
-      <br/>
-      <a href="https://www.linkedin.com/in/CONTRIBUTORNAME" title="LinkedIn"><img src="https://simpleicons.org/icons/linkedin.svg" width="20px"/></a>
-      <a href="https://github.com/CONTRIBUTORNAME" title="GitHub"><img src="https://simpleicons.org/icons/github.svg" width="20px"/></a>
-      <a href="https://www.facebook.com/CONTRIBUTORNAME" title="Facebook"><img src="https://simpleicons.org/icons/facebook.svg" width="20px"/></a>
-      <a href="https://www.youtube.com/CANALNAME" title="YouTube"><img src="https://simpleicons.org/icons/youtube.svg" width="20px"/></a>
-    </td>
-    <td align="center">
-      <a href="https://PORTFOLIOURL.COM">
-        <img src="https://avatars1.githubusercontent.com/u/9919?s=200&v=4" width="100px;" alt="Image Profile NAME CONTRIBUTOR"/><br />
-        <sub><b>Contributor Name</b></sub>
-      </a>
-      <br/>
-      <a href="https://www.linkedin.com/in/CONTRIBUTORNAME" title="LinkedIn"><img src="https://simpleicons.org/icons/linkedin.svg" width="20px"/></a>
-      <a href="https://github.com/CONTRIBUTORNAME" title="GitHub"><img src="https://simpleicons.org/icons/github.svg" width="20px"/></a>
-      <a href="https://www.facebook.com/CONTRIBUTORNAME" title="Facebook"><img src="https://simpleicons.org/icons/facebook.svg" width="20px"/></a>
-      <a href="https://www.youtube.com/CANALNAME" title="YouTube"><img src="https://simpleicons.org/icons/youtube.svg" width="20px"/></a>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <a href="https://PORTFOLIOURL.COM">
-        <img src="https://avatars1.githubusercontent.com/u/9919?s=200&v=4" width="100px;" alt="Image Profile NAME CONTRIBUTOR"/><br />
-        <sub><b>Contributor Name</b></sub>
-      </a>
-      <br/>
-      <a href="https://www.linkedin.com/in/CONTRIBUTORNAME" title="LinkedIn"><img src="https://simpleicons.org/icons/linkedin.svg" width="20px"/></a>
-      <a href="https://github.com/CONTRIBUTORNAME" title="GitHub"><img src="https://simpleicons.org/icons/github.svg" width="20px"/></a>
-      <a href="https://www.facebook.com/CONTRIBUTORNAME" title="Facebook"><img src="https://simpleicons.org/icons/facebook.svg" width="20px"/></a>
-      <a href="https://www.youtube.com/CANALNAME" title="YouTube"><img src="https://simpleicons.org/icons/youtube.svg" width="20px"/></a>
-    </td>
-    <td align="center">
-      <a href="https://PORTFOLIOURL.COM">
-        <img src="https://avatars1.githubusercontent.com/u/9919?s=200&v=4" width="100px;" alt="Image Profile NAME CONTRIBUTOR"/><br />
-        <sub><b>Contributor Name</b></sub>
-      </a>
-      <br/>
-      <a href="https://www.linkedin.com/in/CONTRIBUTORNAME" title="LinkedIn"><img src="https://simpleicons.org/icons/linkedin.svg" width="20px"/></a>
-      <a href="https://github.com/CONTRIBUTORNAME" title="GitHub"><img src="https://simpleicons.org/icons/github.svg" width="20px"/></a>
-      <a href="https://www.facebook.com/CONTRIBUTORNAME" title="Facebook"><img src="https://simpleicons.org/icons/facebook.svg" width="20px"/></a>
-      <a href="https://www.youtube.com/CANALNAME" title="YouTube"><img src="https://simpleicons.org/icons/youtube.svg" width="20px"/></a>
-    </td>
-    <td align="center">
-      <a href="https://PORTFOLIOURL.COM">
-        <img src="https://avatars1.githubusercontent.com/u/9919?s=200&v=4" width="100px;" alt="Image Profile NAME CONTRIBUTOR"/><br />
-        <sub><b>Contributor Name</b></sub>
-      </a>
-      <br/>
-      <a href="https://www.linkedin.com/in/CONTRIBUTORNAME" title="LinkedIn"><img src="https://simpleicons.org/icons/linkedin.svg" width="20px"/></a>
-      <a href="https://github.com/CONTRIBUTORNAME" title="GitHub"><img src="https://simpleicons.org/icons/github.svg" width="20px"/></a>
-      <a href="https://www.facebook.com/CONTRIBUTORNAME" title="Facebook"><img src="https://simpleicons.org/icons/facebook.svg" width="20px"/></a>
-      <a href="https://www.youtube.com/CANALNAME" title="YouTube"><img src="https://simpleicons.org/icons/youtube.svg" width="20px"/></a>
-    </td>
-  </tr>
-</table>
-
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
+|:globe_with_meridians: Web|
+|:---:|
+|[HTML5]()|
+|[CSS3]()|
+|[TypeScript](https://www.typescriptlang.org)|
+|[React](https://reactjs.org)|
+|[Axios](https://github.com/axios/axios)|
 
 </div>
 
@@ -191,8 +104,8 @@ Thanks to all these wonderful people:
 
 <div align="center">
 
-<a href="https://github.com/YOURUSERNAME">
- <img src="https://avatars1.githubusercontent.com/u/9919?s=200&v=4" width="100px;" alt="Profile Photo Rafael Fachinelli"/>
+<a href="https://github.com/rafaelfachinelli">
+ <img src="https://avatars2.githubusercontent.com/u/19878139?s=460&u=363cb967c17e13003de2cbb894771bbb51ac2eb1&v=4" width="100px;" alt="Profile Photo Rafael Fachinelli"/>
  <br/>
  <sub><b>Rafael Fachinelli</b></sub>
 </a>
@@ -210,7 +123,7 @@ Developed with ❤️ by Rafael Fachinelli 👋🏽 Contact me!
 
 <div align="center">
 
-Copyright © 2020 [YOUR NAME](https://github.com/YOURUSERNAME).<br />
+Copyright © 2020 [Rafael Fachinelli](https://github.com/rafaelfachinelli).<br />
 This project is licensed by [MIT](./LICENSE).
 
 </div>
