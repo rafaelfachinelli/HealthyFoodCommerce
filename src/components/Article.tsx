@@ -8,8 +8,8 @@ import imageAuthor1 from '../images/author_1.png';
 export default function Article(props) {
   return (
     <article className='article'>
-      <img src={props.banner} alt={props.title}/>
-      <div className="article__details">
+      <img className='article__image' src={props.banner} alt={props.title}/>
+      <div className='article__details'>
         <p className='article__title'>{props.title}</p>
         <div className='article__author'>
           <img
@@ -17,7 +17,7 @@ export default function Article(props) {
             src={props.authorAvatar}
             alt={props.authorName}
           />
-          <p className="author__name">{props.authorName}</p>
+          <p className='author__name'>{props.authorName}</p>
         </div>
       </div>
     </article>

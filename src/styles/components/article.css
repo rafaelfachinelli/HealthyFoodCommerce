@@ -9,7 +9,11 @@
 }
 
 .article__details {
+  height: 100%;
   padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .article__title {
@@ -21,12 +25,12 @@
   text-align: left;
 }
 
-.article__description {
+/* .article__description {
   color: var(--color-text);
   font-family: 'Muli';
   font-size: 1.6rem;
   text-align: center;
-}
+} */
 
 .article__author {
   display: flex;
@@ -45,7 +49,14 @@
 /*Phone*/
 @media (min-width: 320px) 
   and (max-width: 480px) {
-    
+  .article__image {
+    width: 30rem;
+    height: 30rem;
+  }
+  
+  .article__title {
+    margin: 0;
+  }
 }
 
 /*Tablet*/
