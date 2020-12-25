@@ -25,13 +25,15 @@
 ## :eye_speech_bubble: **Demo**
 
 <p align="center">
-  <kbd><img alt="Healthy Food Commerce" src="https://avatars1.githubusercontent.com/u/9919?s=200&v=4"/></kbd>
+  <kbd><img alt="Healthy Food Commerce in Desktop" src=".github/desktop__demo.gif"/></kbd>
+  <kbd><img alt="Healthy Food Commerce in Tablet" src=".github/tablet__demo.gif"/></kbd>
+  <kbd><img alt="Healthy Food Commerce in Mobile" src=".github/mobile__demo.gif"/></kbd>
 <p>
   
 ---
 ## :information_source: About
 
-Your description about this project.
+Developed in two days, completely responsive (mobile / table / desktop), uses ViaCEP API for automatic address filling, saves the registration form data in local storage and uses React for rendering.
 
 ---
 ## :memo: **Tasks**
