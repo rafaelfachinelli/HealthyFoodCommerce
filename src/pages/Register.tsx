@@ -34,7 +34,22 @@ export default function Register() {
   }
 
   function handleSubmit(event) {
-    console.log(event);
+    event.preventDefault();
+
+    const userRegister = {
+      name: event.target.elements.name.value,
+      birthday: event.target.elements.birthday.value,
+      CPF: event.target.elements.CPF.value,
+      CEP: event.target.elements.CEP.value,
+      address: event.target.elements.address.value,
+      number: event.target.elements.number.value,
+      complement: event.target.elements.complement.value,
+      district: event.target.elements.district.value,
+      city: event.target.elements.city.value,
+      UF: event.target.elements.UF.value
+    };
+
+    localStorage[`healthyFoodCommerce${userRegister.CPF}Registry`] = JSON.stringify(userRegister);
   }
 
   return (
@@ -48,7 +63,7 @@ export default function Register() {
               id='name'
               type='text'
               placeholder='Enter your name'
-              pattern='[a-zA-Z]+$'
+              pattern='[a-zA-Z ]+$'
               title='Must contain letters only.'
               required={true}
             />
