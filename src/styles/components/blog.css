@@ -1,8 +1,8 @@
 .blog {
   display: flex;
   flex-direction: column;
-  overflow: hidden;
   margin-bottom: 10rem;
+  overflow: hidden;
 }
 
 .blog__title {
