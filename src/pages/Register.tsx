@@ -1,5 +1,5 @@
-import { useState, FormEvent } from 'react';
-import { Link } from 'react-router-dom';
+import { useState } from 'react';
+import { useHistory } from 'react-router-dom';
 
 import api from '../services/api';
 import Navigator from '../components/Navigator';
@@ -8,6 +8,8 @@ import Input from '../components/Input';
 import '../styles/pages/register.css';
 
 export default function Register() {
+
+  const { goBack } = useHistory();
 
   const [cep, setCEP] = useState('');
   const [address, setAddress] = useState('');
@@ -50,6 +52,8 @@ export default function Register() {
     };
 
     localStorage[`healthyFoodCommerce${userRegister.CPF}Registry`] = JSON.stringify(userRegister);
+
+    goBack();
   }
 
   return (
