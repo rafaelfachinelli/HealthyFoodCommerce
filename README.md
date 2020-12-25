@@ -25,7 +25,7 @@
 ## :eye_speech_bubble: **Demo**
 
 <p align="center">
-  <kbd><img alt="Healthy Food Commerce in Desktop" style="max-width: 100px" src=".github/desktop__demo.gif"/></kbd>
+  <kbd><img alt="Healthy Food Commerce in Desktop" src=".github/desktop__demo.gif""/></kbd>
   <kbd><img alt="Healthy Food Commerce in Tablet" src=".github/tablet__demo.gif"/></kbd>
   <kbd><img alt="Healthy Food Commerce in Mobile" src=".github/mobile__demo.gif"/></kbd>
 <p>
