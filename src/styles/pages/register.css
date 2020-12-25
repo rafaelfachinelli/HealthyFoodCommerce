@@ -43,7 +43,7 @@
 }
 
 .form input[id='name'] {
-  max-width: 35rem;
+  width: 40rem;
 }
 
 .form input[id='number'] {
@@ -82,11 +82,63 @@
 /*Phone*/
 @media (min-width: 320px) 
   and (max-width: 480px) {
+  .form input {
+    width: 30rem;
+  }
 
+  .form input[id='name'] {
+    max-width: 30rem;
+  }
+
+  .form input[id='birthday'] {
+    max-width: 30rem;
+  }
+
+  .form input[id='CEP'] {
+    max-width: 30rem;
+  }
+
+  .form input[id='number'] {
+    max-width: 15rem;
+  }
+  
+  .form input[id='birthday'] {
+    max-width: 18rem;
+  }
+  
+  .form input[id='city'] {
+    max-width: 21rem;
+  }
 }
 
 /*Tablet*/
 @media (min-width: 481px) 
   and (max-width: 1100px) {
+  .form input {
+    width: 30rem;
+  }
 
+  .form input[id='name'] {
+    max-width: 50rem;
+  }
+
+  .form input[id='birthday'] {
+    max-width: 30rem;
+  }
+
+  .form input[id='CEP'] {
+    max-width: 30rem;
+  }
+
+  .form input[id='number'] {
+    max-width: 15rem;
+  }
+  
+  .form input[id='birthday'] {
+    max-width: 18rem;
+  }
+  
+  .form input[id='city'] {
+    max-width: 21rem;
+  }
 }

@@ -101,8 +101,8 @@
     margin-top: 2rem;
   }
 
-  .search__input input {
-    width: 25rem;
+  .search__input #search {
+    width: 20rem;
     height: 5.2rem;
   }
   
