@@ -106,7 +106,7 @@ The following tools is used to build this project:
 <div align="center">
 
 <a href="https://github.com/rafaelfachinelli">
- <img src="https://avatars2.githubusercontent.com/u/19878139?s=460&u=363cb967c17e13003de2cbb894771bbb51ac2eb1&v=4" width="100px;" alt="Profile Photo Rafael Fachinelli"/>
+ <img src="https://github.com/rafaelfachinelli.png" width="100px;" alt="Profile Photo Rafael Fachinelli"/>
  <br/>
  <sub><b>Rafael Fachinelli</b></sub>
 </a>
