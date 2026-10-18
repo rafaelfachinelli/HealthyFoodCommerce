@@ -1,120 +1,122 @@
 <p align="center">
-  <img alt="Healthy Food Commerce" src=".github/banner.svg" width="350px"/>
-<p>
-
-<p align="center"> 
-  <img alt="Repository Size" src="https://img.shields.io/github/repo-size/rafaelfachinelli/HealthyFoodCommerce?color=BADC58&style=for-the-badge">
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/rafaelfachinelli/HealthyFoodCommerce?color=BADC58&style=for-the-badge">
-  <a href="https://github.com/rafaelfachinelli">
-    <img alt="Developed by Rafael Fachinelli" src="https://img.shields.io/badge/Developer-Rafael_Fachinelli-%BADC58?color=BADC58&style=for-the-badge">
-  </a>
-  <img alt="Project License" src="https://img.shields.io/github/license/rafaelfachinelli/HealthyFoodCommerce?color=BADC58&style=for-the-badge"/>
-<p>
+  <img alt="Healthy Food" src=".github/banner.svg" width="400px"/>
+</p>
 
 <p align="center">
- <a href="#eye_speech_bubble-demo">Demo</a> •
- <a href="#information_source-about">About</a> •
- <a href="#memo-tasks">Tasks</a> •
- <a href="#arrow_forward-run">Run</a> •
- <a href="#hammer_and_wrench-technologies">Technologies</a> •
- <a href="#boy-author">Author</a> •
- <a href="#balance_scale-license">License</a>
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/rafaelfachinelli/HealthyFoodCommerce?color=3498db&style=for-the-badge">
+  <img alt="Last commit" src="https://img.shields.io/github/last-commit/rafaelfachinelli/HealthyFoodCommerce?color=3498db&style=for-the-badge">
+  <a href="https://rafaelfachinelli.com">
+    <img alt="Developed by Rafael Fachinelli" src="https://img.shields.io/badge/Developer-Rafael_Fachinelli-3498db?style=for-the-badge">
+  </a>
+  <img alt="License" src="https://img.shields.io/badge/License-MIT-3498db?style=for-the-badge">
+</p>
+
+<p align="center">
+  <a href="#eye_speech_bubble-preview">Preview</a> •
+  <a href="#information_source-about">About</a> •
+  <a href="#memo-tasks">Tasks</a> •
+  <a href="#arrow_forward-run">Run</a> •
+  <a href="#hammer_and_wrench-technologies">Technologies</a> •
+  <a href="#boy-author">Author</a> •
+  <a href="#balance_scale-license">License</a>
 </p>
 
 ---
-## :eye_speech_bubble: **Demo**
 
-<p align="center">
-  <kbd><img alt="Healthy Food Commerce in Desktop" src=".github/desktop__demo.gif""/></kbd>
-  <kbd><img alt="Healthy Food Commerce in Tablet" src=".github/tablet__demo.gif"/></kbd>
-  <kbd><img alt="Healthy Food Commerce in Mobile" src=".github/mobile__demo.gif"/></kbd>
-<p>
-  
+## :eye_speech_bubble: Preview
+
+<div align="center">
+
+|Desktop|Tablet|Mobile|
+|:---:|:---:|:---:|
+|<kbd><img src=".github/desktop__demo.gif" alt="Desktop"/></kbd>|<kbd><img src=".github/tablet__demo.gif" alt="Tablet"/></kbd>|<kbd><img src=".github/mobile__demo.gif" alt="Mobile" width="200px"/></kbd>|
+
+</div>
+
 ---
+
 ## :information_source: About
 
-Developed in two days, completely responsive (mobile / table / desktop), uses ViaCEP API for automatic address filling, saves the registration form data in local storage and uses React for rendering.
+🍃 A healthy food website built in two days, fully responsive on mobile, tablet and desktop. The landing page has recipes, services, a blog and a newsletter section; the registration page fills in the address automatically from the ZIP code with the [ViaCEP](https://viacep.com.br/) API and saves the form data in local storage.
+
+Built in 2020.
 
 ---
-## :memo: **Tasks**
+
+## :memo: Tasks
 
 <div align="center">
 <details>
-<summary>Click to View</summary>
+<summary>Click to view</summary>
 
 |State|Task|
 |:---:|:---|
-|:heavy_check_mark:|Finished.|
+|:heavy_check_mark:|Landing page: hero, recipes, services, blog and join sections|
+|:heavy_check_mark:|Registration page|
+|:heavy_check_mark:|Address autofill with the ViaCEP API|
+|:heavy_check_mark:|Form data saved in local storage|
+|:heavy_check_mark:|Responsive layout (mobile, tablet, desktop)|
+|:heavy_check_mark:|ESLint (Airbnb) and Prettier|
 
 </details>
 </div>
 
 ---
-## :arrow_forward: **Run**
 
-### :desktop_computer: **WEB Responsive**
+## :arrow_forward: Run
 
-<details>
-  <summary><i>with <b>npm</b></i></summary>
-  
-  ```bash
-  # Install dependencies
-  $ npm install
+You need [Node.js](https://nodejs.org/) and [Yarn](https://yarnpkg.com/). In the project folder:
 
-  # Start development server
-  $ npm start
-  ```
-  
-</details>
+```bash
+# Install dependencies
+yarn
 
-<details>
-  <summary><i>with <b>yarn</b></i></summary>
-  
-  ```bash
-  # Install dependencies
-  $ yarn
+# Start the development server
+yarn start
+```
 
-  # Start development server
-  $ yarn start
-
-  ```
-
-</details>
-
-> ⚠️ The development server will start on port:3000 - Access <http://localhost:3000>
+> The app opens at <http://localhost:3000>.
 
 ---
-## :hammer_and_wrench: **Technologies**
 
-The following tools is used to build this project:
+## :hammer_and_wrench: Technologies
 
 <div align="center">
 
-|:globe_with_meridians: Web|
+|Web|
 |:---:|
-|[HTML5]()|
-|[CSS3]()|
-|[TypeScript](https://www.typescriptlang.org)|
-|[React](https://reactjs.org)|
-|[Axios](https://github.com/axios/axios)|
+|[React](https://react.dev/)|
+|[TypeScript](https://www.typescriptlang.org/)|
+|[React Router](https://reactrouter.com/)|
+|[Axios](https://axios-http.com/)|
+|[ViaCEP API](https://viacep.com.br/)|
+|[CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)|
 
 </div>
 
 ---
-## :boy: **Author**
+
+## :boy: Author
 
 <div align="center">
-  
-[![Author](https://github.com/rafaelfachinelli/rafaelfachinelli/blob/master/.github/author.svg)](https://www.linkedin.com/in/rafaelfachinelli/)
+
+<a href="https://rafaelfachinelli.com">
+  <img src="https://github.com/rafaelfachinelli.png" width="100px" alt="Rafael Fachinelli"/>
+  <br/>
+  <sub><b>Rafael Fachinelli</b></sub>
+</a>
+
+Tech Lead and software engineer. Get in touch!
+
+[![Portfolio](https://img.shields.io/badge/-rafaelfachinelli.com-3498db?style=flat-square&logo=googlechrome&logoColor=white)](https://rafaelfachinelli.com)
+[![LinkedIn](https://img.shields.io/badge/-Rafael_Fachinelli-0a66c2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rafaelfachinelli/)
+[![GitHub](https://img.shields.io/badge/-rafaelfachinelli-000?style=flat-square&logo=github&logoColor=white)](https://github.com/rafaelfachinelli)
+[![E-mail](https://img.shields.io/badge/-rafael.l.a.fachinelli@gmail.com-ea4335?style=flat-square&logo=gmail&logoColor=white)](mailto:rafael.l.a.fachinelli@gmail.com)
 
 </div>
 
 ---
-## :balance_scale: **License**
 
-<div align="center">
+## :balance_scale: License
 
-Copyright © 2021 [Rafael Fachinelli](https://github.com/rafaelfachinelli).<br />
-This project is licensed by [MIT](./LICENSE).
-
-</div>
+This project is under the [MIT license](./LICENSE).
